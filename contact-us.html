@@ -34,8 +34,8 @@
             <div class="container-fluid">
 
               <div class="login-btns">
-                <button class="btn btn-primary mx-5"><a href=""></a>تسجيل الدخول</button>
-                <button class="btn btn-primary"><a href=""></a>التسجيل</button>
+               <a  class="btn btn-primary" href="./login.html">تسجيل الدخول</a> 
+               <a  class="btn btn-primary" href="./sign-up.html">التسجيل</a>
               </div>
               
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,7 +63,6 @@
         <!-- bootstrap nav -->
     </header>
     <!-- end header -->
-
 
 
     <!-- contact form -->
@@ -97,22 +96,44 @@
     <!-- end wave background -->  
 
         <div class="container">
-            <div class="contact-contain">
-                <h1>contact us</h1>
-                <form action="" method="post">
-                    <input type="text" placeholder="type your user name here" id="name" name="name">
-                    <i class="fa-solid fa-user icn"></i>
-                    <input type="email" placeholder="type your email here" id="email" name="email">
-                    <i class="fa-solid fa-envelope icn"></i>
-                    <input type="text" placeholder="type your phone here" id="phone" name="phone">
-                    <i class="fa-solid fa-phone-volume icn"></i>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="write you message here"></textarea>
-                    <i class="fa-solid fa-message icn-l"></i>
-                    <input type="submit" placeholder="send you message ......." value="send message" name="submin">
-                </form>
-            </div>
+
+          <form class="form">
+    
+            <div class="flex">
+                <label>
+                    <input class="input" type="text" placeholder="" required="">
+                    <span>first name</span>
+                </label>
+        
+                <label>
+                    <input class="input" type="text" placeholder="" required="">
+                    <span>last name</span>
+                </label>
+            </div>  
+                    
+            <label>
+                <input class="input" type="email" placeholder="" required="">
+                <span>email</span>
+            </label> 
+                
+            <label>
+                <input class="input" placeholder="" type="tel" required="">
+                <span>contact number</span>
+            </label>
+            <label>
+                <textarea class="input01" placeholder="" rows="3" required=""></textarea>
+                <span>message</span>
+            </label>
+            
+            <button href="#" class="fancy">
+              <span class="top-key"></span>
+              <span class="text">submit</span>
+              <span class="bottom-key-1"></span>
+              <span class="bottom-key-2"></span>
+            </button>
+          </form>
+            
         </div>
-    </div>
 
 
 
@@ -120,8 +141,8 @@
 
 
     
-      <!--  start footer -->
-      <footer>
+       <!--  start footer -->
+       <footer>
         <div class="container-fluid">
           <div class="left">
             <h1>عن شركتنا </h1>
@@ -132,9 +153,9 @@
           <div class="middle">
             <h1>راوبط سريعة</h1>
              <ul>
-              <li><a href="">عقارات</a></li>
-              <li><a href="">اضافة عقار</a></li>
-              <li><a href="">اتصل بنا</a></li>
+              <li> <a href="">عقارات</a><i class="fa-solid fa-angles-left"></i></li>
+              <li><a href="">اضافة عقار</a><i class="fa-solid fa-angles-left"></i></li>
+              <li><a href="">اتصل بنا</a><i class="fa-solid fa-angles-left"></i></li>
              </ul>
           </div>
           <div class="right">
